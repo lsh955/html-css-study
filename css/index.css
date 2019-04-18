@@ -1,0 +1,44 @@
+* {
+    border: 1px solid red;
+}
+
+.menu {
+    display: flex;
+    margin: 10px;
+    padding: 10px 10px;
+    line-height: 50px;
+    background-color: lightgrey;
+    justify-content: space-around
+}
+
+.body {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.body_item1 {
+    display: flex;
+    margin: 10px;
+    padding: 10px 10px;
+    line-height: 300px;
+    justify-content: space-between;
+}
+
+.body_item2 {
+    margin: 10px;
+    padding: 10px 10px;
+}
+
+.fun {
+    width: 270px;
+    background-color: lightgrey;
+}
+
+.banner1 {
+    line-height: 100px;
+    background-color: lightgrey;
+}
