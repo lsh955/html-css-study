@@ -23,8 +23,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/20190424_ex01.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="84" column="18" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+                <state relative-caret-position="323">
+                  <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
                 </state>
               </provider>
             </entry>
@@ -36,8 +36,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/20190424_ex01.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="632">
-                  <caret line="237" column="76" selection-start-line="237" selection-start-column="76" selection-end-line="237" selection-end-column="76" />
+                <state relative-caret-position="340">
+                  <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -145,7 +145,8 @@
       <workItem from="1555645992014" duration="598000" />
       <workItem from="1555890382919" duration="2381000" />
       <workItem from="1555975988668" duration="1390000" />
-      <workItem from="1556064702841" duration="5339000" />
+      <workItem from="1556064702841" duration="5773000" />
+      <workItem from="1556169465883" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="20190418_최초커밋">
       <created>1555577633150</created>
@@ -210,11 +211,25 @@
       <option name="project" value="LOCAL" />
       <updated>1556078631788</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="html, css 레이아웃 작성">
+      <created>1556096572240</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1556096572241</updated>
+    </task>
+    <task id="LOCAL-00011" summary="한글깨짐수정, CSS파일 경로수정">
+      <created>1556096796731</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1556096796731</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29144000" />
+    <option name="totallyTimeSpent" value="30249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -229,7 +244,7 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12633263" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.108742006" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -244,8 +259,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989059" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49520257" visible="true" weight="0.22342733" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50479746" side_tool="true" visible="true" weight="0.22342733" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4946695" visible="true" weight="0.22342733" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5053305" side_tool="true" visible="true" weight="0.22342733" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -269,30 +284,11 @@
     <MESSAGE value="내용변경" />
     <MESSAGE value="css내용정리 변경" />
     <MESSAGE value="파일명 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="파일명 변경" />
+    <MESSAGE value="html, css 레이아웃 작성" />
+    <MESSAGE value="한글깨짐수정, CSS파일 경로수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="한글깨짐수정, CSS파일 경로수정" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/20190418_ex01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20190422_ex01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/20190422_ex01.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -314,17 +310,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/20190424_ex01.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="237" column="76" selection-start-line="237" selection-start-column="76" selection-end-line="237" selection-end-column="76" />
+        <state relative-caret-position="170">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190418_ex01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190422_ex01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/20190424_ex01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="84" column="18" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+        <state relative-caret-position="323">
+          <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/20190424_ex01.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
         </state>
       </provider>
     </entry>
