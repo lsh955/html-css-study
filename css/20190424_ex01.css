@@ -69,6 +69,10 @@ span {
     background-color: #fff;
 }
 
+.title-text {
+    padding-left: 5px;
+}
+
 .title {
     font-size: 10px;
     display: flex;
@@ -79,8 +83,6 @@ span {
 .title-img {
     width: 20px;
     height: 20px;
-    border: 1px #fff;
-    background-color: #fff;
 }
 
 .header-img {
@@ -89,8 +91,6 @@ span {
     position: fixed;
     top: 13px;
     right: 10px;
-    border: 1px #fff;
-    background-color: #fff;
 }
 
 .carousel-img{
@@ -98,18 +98,11 @@ span {
     height: 70px;
     margin-top: 70px;
     margin-right: 10px;
-    border: 1px #fff;
-    background-color: #fff;
 }
 
 /********************************* header *********************************/
 
 /********************************** body **********************************/
-
-.title-text {
-    padding-left: 5px;
-}
-
 
 .carousel {
     border-bottom: 1px solid #BEC9D1;
@@ -152,6 +145,10 @@ span {
     background-color: #B0B9C0;
 }
 
+.carousel-indicators-item-active:nth-child(1) {
+    background-color: #FF1212;
+}
+
 .certs {
     display: flex;
     flex-direction: row;
@@ -174,10 +171,6 @@ span {
 
 .group-two{
     background-color: #1B67C9;
-}
-
-.carousel-indicators-item-active {
-    background-color: #FF1212;
 }
 
 .certs-group-title-h4 {
@@ -206,10 +199,6 @@ span {
     background-color: #fff;
 }
 
-.links-col-clear{
-
-}
-
 .links-col {
     background-color: #fff;
     display: flex;
@@ -225,8 +214,6 @@ span {
 .links-item-icon-img {
     width: 45px;
     height: 45px;
-    border: 1px solid #fff;
-    background-color: #fff;
 }
 
 .links-item-arrow-img {
@@ -235,8 +222,6 @@ span {
     width: 23px;
     height: 23px;
     margin: 8px;
-    border: 1px #fff;
-    background-color: #fff;
 }
 
 /********************************** body **********************************/
@@ -274,7 +259,7 @@ span {
     right: 15px;
     font-size: 13px;
     background-color: #F6F7F8;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 5px;
     padding: 8px;
     width: 90px;
     text-align: center;

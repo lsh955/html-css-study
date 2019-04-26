@@ -4,7 +4,6 @@
     <list default="true" id="f64c7a32-ec21-4591-9da6-e76f56ab3e77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/20190424_ex01.html" beforeDir="false" afterPath="$PROJECT_DIR$/20190424_ex01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/20190424_ex01.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/20190424_ex01.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +22,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/20190424_ex01.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+                <state relative-caret-position="1802">
+                  <caret line="106" column="14" lean-forward="true" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -36,8 +35,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/20190424_ex01.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+                <state relative-caret-position="632">
+                  <caret line="302" column="76" selection-start-line="302" selection-start-column="76" selection-end-line="302" selection-end-column="76" />
                 </state>
               </provider>
             </entry>
@@ -71,8 +70,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2129" />
-    <option name="y" value="-17" />
+    <option name="x" value="2161" />
+    <option name="y" value="-22" />
     <option name="width" value="1455" />
     <option name="height" value="909" />
   </component>
@@ -82,6 +81,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,8 +99,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -146,7 +145,9 @@
       <workItem from="1555890382919" duration="2381000" />
       <workItem from="1555975988668" duration="1390000" />
       <workItem from="1556064702841" duration="5773000" />
-      <workItem from="1556169465883" duration="671000" />
+      <workItem from="1556169465883" duration="738000" />
+      <workItem from="1556185409392" duration="24000" />
+      <workItem from="1556235706649" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="20190418_최초커밋">
       <created>1555577633150</created>
@@ -225,11 +226,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556096796731</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="html,css 추가작업">
+      <created>1556170565987</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1556170565987</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30249000" />
+    <option name="totallyTimeSpent" value="30990000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -244,7 +252,7 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.108742006" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11140725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -259,8 +267,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989059" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4946695" visible="true" weight="0.22342733" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5053305" side_tool="true" visible="true" weight="0.22342733" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4936034" visible="true" weight="0.22342733" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5063966" side_tool="true" visible="true" weight="0.22342733" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -286,7 +294,8 @@
     <MESSAGE value="파일명 변경" />
     <MESSAGE value="html, css 레이아웃 작성" />
     <MESSAGE value="한글깨짐수정, CSS파일 경로수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="한글깨짐수정, CSS파일 경로수정" />
+    <MESSAGE value="html,css 추가작업" />
+    <option name="LAST_COMMIT_MESSAGE" value="html,css 추가작업" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/20190422_ex01.css">
@@ -333,15 +342,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/20190424_ex01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        <state relative-caret-position="1802">
+          <caret line="106" column="14" lean-forward="true" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/20190424_ex01.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="632">
+          <caret line="302" column="76" selection-start-line="302" selection-start-column="76" selection-end-line="302" selection-end-column="76" />
         </state>
       </provider>
     </entry>
