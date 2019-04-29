@@ -1,0 +1,172 @@
+/***** default *****/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Malgun Gothic', sans-serif;
+    line-height: 1.4;
+}
+
+html {
+    height: 100%;
+    color: #333;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+}
+
+/******************/
+/***** layout *****/
+/******************/
+.wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/********************************* header *********************************/
+
+.header {
+    padding: 15px;
+    border-bottom: 1px solid #BEC9D1;
+}
+
+.title {
+    font-size: 10px;
+    text-align: center;
+}
+
+.title img {
+    float: left;
+}
+
+.home {
+
+}
+
+/********************************* header *********************************/
+
+/********************************** body **********************************/
+
+.carousel {
+    margin: 15px;
+}
+
+.certs {
+    display: flex;
+    padding: 20px;
+}
+
+.certs li {
+    width: 100%;
+}
+
+.certs h4,li {
+    line-height: 30px;
+    line-height: 30px;
+}
+
+.certs p {
+    line-height: 40px;
+}
+
+.certs button {
+    width: 200px;
+    height: 35px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+/********************************** body **********************************/
+
+/********************************* footer *********************************/
+
+.footer {
+    text-align: center;
+}
+
+.cscenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #BEC9D1;
+}
+
+.cscenter-time {
+    margin-top: 5px;
+    width: 120px;
+}
+
+.cscenter-time-icon {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px
+}
+
+.cscenter-time-text h5 {
+    text-align: left;
+    font-size: 14px;
+}
+
+.cscenter-time-text p {
+    text-align: left;
+    font-size: 11px;
+}
+
+.cscenter h3 {
+    color: #167FD9;
+    margin-top: 7px;
+}
+
+.cscenter button {
+    height: 40px;
+    font-size: 13px;
+    background-color: #F6F7F8;
+    border-radius: 5px;
+    padding: 8px;
+    width: 90px;
+    text-align: center;
+    border: 1px solid #DCE0E4;
+}
+
+.links:nth-child(2) {
+    margin: 15px;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.copyright {
+    font-size: 11px;
+}
+
+
+/********************************* footer *********************************/
