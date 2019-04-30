@@ -22,8 +22,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/20190429_ex01.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+                <state relative-caret-position="551">
+                  <caret line="115" column="6" selection-start-line="115" selection-start-column="6" selection-end-line="115" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -35,8 +35,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/20190429_ex01.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="49" selection-start-line="49" selection-end-line="49" />
+                <state relative-caret-position="667">
+                  <caret line="211" column="32" selection-start-line="211" selection-start-column="32" selection-end-line="211" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
@@ -68,8 +68,8 @@
         <option value="$PROJECT_DIR$/css/20190424_ex01.css" />
         <option value="$PROJECT_DIR$/20190424_ex02.html" />
         <option value="$PROJECT_DIR$/css/20190424_ex02.css" />
-        <option value="$PROJECT_DIR$/css/20190429_ex01.css" />
         <option value="$PROJECT_DIR$/20190429_ex01.html" />
+        <option value="$PROJECT_DIR$/css/20190429_ex01.css" />
       </list>
     </option>
   </component>
@@ -83,26 +83,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="20190418_ex01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="20190418_ex01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="20190418_ex01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="20190418_ex01" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML4 File" />
@@ -154,7 +135,7 @@
       <workItem from="1556235706649" duration="715000" />
       <workItem from="1556493940341" duration="13000" />
       <workItem from="1556496142879" duration="5163000" />
-      <workItem from="1556580026323" duration="142000" />
+      <workItem from="1556580026323" duration="828000" />
     </task>
     <task id="LOCAL-00001" summary="20190418_최초커밋">
       <created>1555577633150</created>
@@ -296,11 +277,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556525516299</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="meta태그추가및 DOCTYPE 변경">
+      <created>1556580246876</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1556580246876</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36373000" />
+    <option name="totallyTimeSpent" value="37059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -365,7 +353,8 @@
     <MESSAGE value="20190429_최초커밋(2차미션)" />
     <MESSAGE value="헤더에 css link 파일명 수정" />
     <MESSAGE value="헤더에 title 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤더에 title 변경" />
+    <MESSAGE value="meta태그추가및 DOCTYPE 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="meta태그추가및 DOCTYPE 변경" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/20190422_ex01.css">
@@ -441,17 +430,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/20190429_ex01.css">
+    <entry file="file://$PROJECT_DIR$/20190429_ex01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="551">
+          <caret line="115" column="6" selection-start-line="115" selection-start-column="6" selection-end-line="115" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20190429_ex01.html">
+    <entry file="file://$PROJECT_DIR$/css/20190429_ex01.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="667">
+          <caret line="211" column="32" selection-start-line="211" selection-start-column="32" selection-end-line="211" selection-end-column="32" />
         </state>
       </provider>
     </entry>
