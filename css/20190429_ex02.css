@@ -204,7 +204,6 @@ img {
     position: absolute;
 }
 
-
 .body .links .links-item-icon {
     width: 40px;
     height: 40px;
@@ -234,8 +233,8 @@ img {
 /*********** footer ***********/
 
 .footer .cscenter {
-    margin: 10px;
-    height: 50px;
+    margin: 0 10px 0;
+    height: 60px;
     position: relative;
     border-bottom: 1px solid #BEC9D1;
 }
@@ -243,14 +242,14 @@ img {
 .footer .cscenter .cscenter-time > img {
     width: 30px;
     height: 30px;
-    margin-top: -20px;
+    margin-top: -15px;
     top: 50%;
     left: 10px;
     position: absolute;
 }
 
 .footer .cscenter .cscenter-time .cscenter-time-text {
-    margin-top: -20px;
+    margin-top: -15px;
     top: 50%;
     left: 45px;
     position: absolute;
@@ -267,7 +266,7 @@ img {
 .footer .cscenter > h3 {
     width: 100%;
     text-align: center;
-    margin-top: -20px;
+    margin-top: -15px;
     top: 50%;
     position: absolute;
 }
@@ -275,7 +274,7 @@ img {
 .footer .cscenter > button {
     width: 90px;
     height: 30px;
-    margin-top: -20px;
+    margin-top: -15px;
     top: 50%;
     right: 10px;
     position: absolute;
@@ -297,7 +296,6 @@ img {
 }
 
 .footer .copyright {
-    padding: 10px;
     font-size: 11px;
     text-align: center;
 }
