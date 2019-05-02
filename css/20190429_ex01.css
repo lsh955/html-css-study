@@ -187,9 +187,36 @@ img {
 
 /*********** footer ***********/
 
-.footer .cscenter {
+.cscenter {
+    height: 55px;
     padding: 10px;
     border-bottom: 1px solid #BEC9D1;
+}
+
+.cscenter .cscenter-time img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+.cscenter .cscenter-time .cscenter-time-text {
+    font-size: 13px;
+    left: 60px;
+    position: absolute;
+}
+
+.cscenter h3 {
+    padding-top: 5px;
+    position: relative;
+    text-align: center;
+}
+
+.cscenter button {
+    height: 30px;
+    width: 90px;
+    top: 537px;
+    right: 20px;
+    position: absolute;
 }
 
 .footer .links {
@@ -198,9 +225,9 @@ img {
     text-align: center;
 }
 
-.footer .links li {
-    display: inline;
+.footer .links > li {
     padding: 0 5px;
+    display: inline;
     border-right: 1px solid #BEC9D1;
 }
 

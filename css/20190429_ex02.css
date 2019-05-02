@@ -1,0 +1,305 @@
+/***** default *****/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Malgun Gothic', sans-serif;
+    line-height: 1.4;
+}
+
+html {
+    height: 100%;
+    color: #333;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    background-color: #fff;
+}
+
+/******************/
+/***** layout *****/
+/******************/
+.wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*********** header ***********/
+
+.header {
+    height: 50px;
+    position: relative;
+    border-bottom: 1px solid #BEC9D1;
+}
+
+.header .title {
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+    margin-top: -12px;
+    top: 50%;
+    position: absolute;
+}
+
+/** header의 img 태그는 하나로 묶으로 싶으나
+    나중에 크기가 다른 요구사항이 있을 수 있어 따로분리... **/
+
+.header .title > img {
+    width: 25px;
+    height: 25px;
+}
+.header .home {
+    width: 25px;
+    height: 25px;
+}
+
+.header .title > img,
+.header .title > h2 {
+    vertical-align: middle;
+}
+
+.header .title > h2 {
+    display: inline;
+}
+
+.header .home {
+    top: 50%;
+    right: 10px;
+    margin-top: -12px;
+    position: absolute;
+}
+
+/*********** header ***********/
+
+/************ body ************/
+
+.body .carousel {
+    height: 130px;
+    position: relative;
+    border-bottom: 1px solid #BEC9D1;
+}
+
+.body .carousel > h5 {
+    margin-top: -40px;
+}
+
+.body .carousel > p {
+    margin-top: -12px;
+}
+
+.body .carousel > h5,
+.body .carousel > p {
+    top: 50%;
+    left: 20px;
+    position: absolute;
+    font-size: 12px;
+}
+
+.body .carousel-indicators > li {
+    top: 75%;
+    left: 20px;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    margin-right: 5px;
+    border-radius: 200px;
+    background-color: #B0B9C0;
+}
+
+.body .carousel > img {
+    top: 50%;
+    right: 20px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+}
+
+.body .certs > li {
+    width: 50%;
+    height: 200px;
+    padding: 10px;
+    position: relative;
+    border: 1px solid #BEC9D1;
+}
+
+.body .certs > li:last-child {
+    top: 180px;
+    right: 0;
+    position: absolute;
+}
+
+.body .certs h4 {
+    font-size: 16px;
+    top: 10%;
+    left: 15px;
+    position: absolute;
+}
+.body .certs p {
+    font-size: 13px;
+    top: 25%;
+    left: 15px;
+    position: absolute;
+}
+
+.body .certs ul {
+    font-size: 13px;
+    top: 40%;
+    left: 15px;
+    position: absolute;
+}
+
+.body .certs img {
+    width: 10px;
+    height: 10px;
+}
+
+.body .certs button {
+    width: 100%;
+    height: 30px;
+    margin-top: 140px;
+}
+
+.body .links > li{
+    height: 60px;
+    width: 50%;
+    padding: 10px;
+    position: relative;
+    border: 1px solid #BEC9D1;
+}
+
+.body .links > li:nth-child(2) {
+    top: 380px;
+    right: 0;
+    position: absolute;
+}
+
+.body .links > li:nth-child(4) {
+    top: 440px;
+    right: 0;
+    position: absolute;
+}
+
+
+.body .links .links-item-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.body .links .links-item-icon,
+.body .links h4 {
+    vertical-align: middle;
+}
+
+.body .links h4 {
+    font-size: 15px;
+    display: inline;
+}
+
+.body .links .links-item-arrow {
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    top: 50%;
+    right: 10px;
+    position: absolute;
+}
+
+/************ body ************/
+
+/*********** footer ***********/
+
+.footer .cscenter {
+    margin: 10px;
+    height: 50px;
+    position: relative;
+    border-bottom: 1px solid #BEC9D1;
+}
+
+.footer .cscenter .cscenter-time > img {
+    width: 30px;
+    height: 30px;
+    margin-top: -20px;
+    top: 50%;
+    left: 10px;
+    position: absolute;
+}
+
+.footer .cscenter .cscenter-time .cscenter-time-text {
+    margin-top: -20px;
+    top: 50%;
+    left: 45px;
+    position: absolute;
+}
+
+.footer .cscenter .cscenter-time .cscenter-time-text h5 {
+    font-size: 13px;
+}
+
+.footer .cscenter .cscenter-time .cscenter-time-text p {
+    font-size: 11px;
+}
+
+.footer .cscenter > h3 {
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+    top: 50%;
+    position: absolute;
+}
+
+.footer .cscenter > button {
+    width: 90px;
+    height: 30px;
+    margin-top: -20px;
+    top: 50%;
+    right: 10px;
+    position: absolute;
+}
+
+.footer .links {
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer .links > li {
+    padding: 0 5px;
+    display: inline;
+}
+
+.footer .links > li:nth-child(-n+3) {
+    border-right: 1px solid #BEC9D1;
+}
+
+.footer .copyright {
+    padding: 10px;
+    font-size: 11px;
+    text-align: center;
+}
+
+/*********** footer ***********/

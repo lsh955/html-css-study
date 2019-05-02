@@ -1,0 +1,329 @@
+/***** default *****/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Malgun Gothic', sans-serif;
+    line-height: 1.4;
+}
+
+html {
+    height: 100%;
+    color: #333;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    background-color: #fff;
+}
+
+/******************/
+/***** layout *****/
+/******************/
+.wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #f0f1f5;
+}
+
+/***** header *****/
+.header {
+    position: relative;
+    height: 55px;
+    border-bottom: 1px solid #bfcad2;
+    background-color: #fff;
+}
+
+.header .title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 24px;
+    margin-top: -12px;
+    text-align: center;
+}
+
+.header .title img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.header .title h2 {
+    display: inline;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.header .home {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+}
+
+/***** body *****/
+.body {
+    background-color: #fff;
+}
+
+.body .carousel {
+    position: relative;
+    padding: 20px;
+    height: 200px;
+}
+
+.body .carousel h5 {
+    display: inline-block;
+    padding: 3px 10px;
+    border: 1px solid #dde1e5;
+    border-radius: 10px;
+    background-color: #ebf2f7;
+    font-size: 12px;
+    color: #5e89a9;
+    margin-bottom: 15px;
+}
+
+.body .carousel p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.body .carousel ul.carousel-indicators {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.body .carousel ul.carousel-indicators li {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #b1bac1;
+}
+
+.body .carousel ul.carousel-indicators li.carousel-indicators-item-active {
+    background-color: #fe1843;
+}
+
+.body .carousel img {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+}
+
+.body .certs {
+    position: relative;
+    height: 225px;
+    color: #fff;
+}
+
+.body .certs > li {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    padding: 20px;
+    color: #fff;
+}
+
+.body .certs > li:nth-child(1) {
+    left: 0;
+    background-color: #107fdb;
+}
+
+.body .certs > li:nth-child(2) {
+    left: unset;
+    right: 0;
+    background-color: #1867cb;
+}
+
+.body .certs li h4 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.body .certs li p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.body .certs li ul {
+    margin-bottom: 15px;
+}
+
+.body .certs li ul li {
+
+}
+
+.body .certs li ul li img {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+}
+
+.body .certs li ul li span {
+    vertical-align: middle;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.body .certs li button {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #dde1e5;
+    border-radius: 15px;
+    background-color: #f7f8f9;
+    color: #1867cb;
+}
+
+.body .links {
+    border-top: 1px solid #dde1e5;
+}
+
+.body .links li {
+    float: left;
+    position: relative;
+    width: 50%;
+    padding: 15px;
+    border-bottom: 1px solid #dde1e5;
+}
+
+.body .links li:nth-child(odd) {
+    border-right: 1px solid #dde1e5;
+}
+
+.body .links li .links-item-icon {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.body .links li h4 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.body .links li .links-item-arrow {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+}
+
+.body .links-clear {
+    clear: both;
+}
+
+/***** footer *****/
+.footer {
+    padding: 0 15px 20px 15px;
+}
+
+.footer .cscenter {
+    position: relative;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 15px;
+}
+
+.footer .cscenter .cscenter-time {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    height: 30px;
+    margin-top: -15px;
+}
+
+.footer .cscenter .cscenter-time img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.footer .cscenter .cscenter-time .cscenter-time-text {
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.footer .cscenter .cscenter-time .cscenter-time-text h5 {
+    font-size: 14px;
+}
+
+.footer .cscenter .cscenter-time .cscenter-time-text p {
+    font-size: 11px;
+    color: gray;
+}
+
+.footer .cscenter h3 {
+    text-align: center;
+    padding: 20px 0;
+    color: #1f76dc;
+}
+
+.footer .cscenter button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    padding: 0 20px;
+    height: 34px;
+    margin-top: -17px;
+    border: 1px solid #dde1e5;
+    border-radius: 4px;
+    background-color: #f7f8f9;
+}
+
+.footer .links {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.footer .links li {
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid lightgray;
+    font-size: 12px;
+}
+
+.footer .links li:last-child {
+    border-right: none;
+}
+
+.footer .copyright {
+    text-align: center;
+    font-size: 11px;
+    color: gray;
+}
