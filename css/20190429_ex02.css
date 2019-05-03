@@ -79,7 +79,7 @@ img {
 
 .header .title > img,
 .header .title > h2 {
-	vertical-align: middle;
+	vertical-align: middle; /* 수직정렬 */
 }
 
 .header .title > h2 {
@@ -113,30 +113,19 @@ img {
 
 .body .carousel > h5,
 .body .carousel > p {
+	font-size: 12px;
 	top: 50%;
 	left: 20px;
 	position: absolute;
-	font-size: 12px;
-}
-
-.body .carousel-indicators > li {
-	top: 75%;
-	left: 20px;
-	position: absolute;
-	width: 7px;
-	height: 7px;
-	margin-right: 5px;
-	border-radius: 200px;
-	background-color: #B0B9C0;
 }
 
 .body .carousel > img {
-	top: 50%;
-	right: 20px;
-	position: absolute;
 	width: 60px;
 	height: 60px;
 	margin-top: -30px;
+	top: 50%;
+	right: 20px;
+	position: absolute;
 }
 
 .body .certs > li {
@@ -291,7 +280,7 @@ img {
 	display: inline;
 }
 
-.footer .links > li:nth-child(-n+3) {
+.footer .links > li:nth-child(-n+3) { /* 0 ~ 2  */
 	border-right: 1px solid #BEC9D1;
 }
 
