@@ -1,0 +1,293 @@
+/***** default *****/
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Malgun Gothic', sans-serif;
+	line-height: 1.4;
+}
+
+html {
+	height: 100%;
+	color: #333;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+li {
+	list-style-type: none;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+}
+
+table {
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+	background-color: #fff;
+}
+
+/******************/
+/***** layout *****/
+/******************/
+.wrapper {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/*********** header ***********/
+
+.header {
+    height: 50px;
+    position: relative;
+    border-bottom: 1px solid #bfcad2;
+}
+
+.header .title {
+    width: 100%;
+    text-align: center;
+    margin-top: -12px;
+    top: 50%;
+    position: absolute;
+}
+
+.header .title > h2{
+    font-size: 15px;
+    text-align: center;
+    display: inline;
+    vertical-align: middle;
+}
+
+.header .title > img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.header .home {
+    width: 25px;
+    height: 25px;
+    margin-top: -12px;
+    top: 50%;
+    right: 10px;
+    position: absolute;
+}
+
+/*********** header ***********/
+
+/************ body ************/
+
+.body .carousel {
+    height: 150px;
+    padding: 20px;
+    position: relative;
+    border-bottom: 1px solid #bfcad2;
+}
+
+.body .carousel > h5 {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.body .carousel > p {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.body .carousel .carousel-indicators {
+    /* 잠깐 생략. */
+}
+
+.body .carousel > img {
+    width: 70px;
+    height: 70px;
+    top: 50px;
+    right: 20px;
+    position: absolute;
+}
+
+.body .certs {
+    width: 100%;
+    height: 210px;
+    position: relative;
+}
+
+.body .certs > li {
+    width: 50%;
+    padding: 15px;
+    position: absolute;
+    border: 1px solid #bfcad2;
+}
+
+.body .certs > li:nth-child(1) {
+    left: 0;
+}
+
+.body .certs > li:nth-child(2) {
+    right: 0;
+}
+
+.body .certs > li h4{
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.body .certs > li p{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.body .certs > li ul li img{
+    width: 10px;
+    height: 10px;
+    font-size: 13px;
+}
+
+.body .certs > li ul li span{
+    font-size: 13px;
+}
+
+.body .certs > li button{
+    width: 100%;
+    height: 40px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.body .links {
+    width: 100%;
+    height: 140px;
+    position: relative;
+}
+
+.body .links > li {
+    width: 50%;
+    height: 70px;
+    padding: 10px;
+    position: absolute;
+    border: 1px solid #bfcad2;
+}
+
+.body .links > li:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+
+.body .links > li:nth-child(2) {
+    top: 0;
+    right: 0;
+}
+
+.body .links > li:nth-child(3) {
+    top: 50%;
+    left: 0;
+}
+
+.body .links > li:nth-child(4) {
+    top: 50%;
+    right: 0;
+}
+
+.body .links .links-item-icon {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle; 
+}
+
+.body .links h4 {
+   display: inline;
+   vertical-align: middle;
+}
+
+.body .links .links-item-arrow {
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    top: 30%; /* 계산 하지않고 조절하면서 눈대중으로 맞추었다. */
+    position: absolute;
+    vertical-align: middle;
+}
+
+/************ body ************/
+
+/*********** footer ***********/
+
+.footer {
+    margin: 15px;
+}
+
+.footer .cscenter {
+    height: 50px;
+    position: relative;
+    border-bottom: 1px solid #bfcad2;
+}
+
+.footer .cscenter .cscenter-time {
+    margin-top: -25px;
+    top: 50%;
+    left: 15px;
+    position: absolute;
+}
+
+.footer .cscenter .cscenter-time img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer .cscenter .cscenter-time .cscenter-time-text {
+    font-size: 13px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer .cscenter > h3 {
+    padding: 5px;
+    text-align: center;
+}
+
+/* margin-top : 조절하면서 눈대중으로 맞추었다. */
+.footer .cscenter > button {
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+    top: 50%;
+    margin-top: -25px;
+    right: 15px;
+    position: absolute;
+}
+
+.footer .links {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer .links > li{
+    font-size: 13px;
+    display: inline;
+    padding-right: 5px;
+    border-right: 1px solid #bfcad2;
+}
+
+.footer .copyright {
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+}
+
+/*********** footer ***********/
