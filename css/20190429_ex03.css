@@ -216,7 +216,7 @@ img {
     width: 30px;
     height: 30px;
     right: 10px;
-    top: 30%; /* 계산 하지않고 조절하면서 눈대중으로 맞추었다. */
+    top: 30%; /* 조절하면서 눈대중으로 맞추었다. */
     position: absolute;
     vertical-align: middle;
 }
@@ -281,7 +281,10 @@ img {
     font-size: 13px;
     display: inline;
     padding-right: 5px;
-    border-right: 1px solid #bfcad2;
+}
+
+.footer .links > li:nth-child(-n+3) { /* 0 ~ 2  */
+    border-right: 1px solid #BEC9D1;
 }
 
 .footer .copyright {
