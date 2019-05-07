@@ -107,8 +107,16 @@ img {
     padding-bottom: 10px;
 }
 
-.body .carousel .carousel-indicators {
-    /* 잠깐 생략. */
+.body .carousel .carousel-indicators > li {
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    border-radius: 200px;
+    background-color: #B0B9C0;
+}
+
+.body .carousel .carousel-indicators li:nth-child(1) {
+    background-color: crimson;
 }
 
 .body .carousel > img {
