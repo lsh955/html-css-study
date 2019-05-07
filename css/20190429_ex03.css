@@ -64,16 +64,16 @@ img {
     position: absolute;
 }
 
+.header .title > img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
 .header .title > h2{
     font-size: 15px;
     text-align: center;
     display: inline;
-    vertical-align: middle;
-}
-
-.header .title > img {
-    width: 25px;
-    height: 25px;
     vertical-align: middle;
 }
 
@@ -212,11 +212,12 @@ img {
     vertical-align: middle;
 }
 
+/* top : 조절하면서 눈대중으로 맞추었다. */
 .body .links .links-item-arrow {
     width: 30px;
     height: 30px;
     right: 10px;
-    top: 30%; /* 조절하면서 눈대중으로 맞추었다. */
+    top: 30%;
     position: absolute;
     vertical-align: middle;
 }
@@ -283,7 +284,8 @@ img {
     padding-right: 5px;
 }
 
-.footer .links > li:nth-child(-n+3) { /* 0 ~ 2  */
+/* nth-child(-n+3) : 0 ~ 2  */
+.footer .links > li:nth-child(-n+3) {
     border-right: 1px solid #BEC9D1;
 }
 
