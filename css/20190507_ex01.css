@@ -1,4 +1,5 @@
 /***** default *****/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -26,6 +27,7 @@ a:link,
 a:visited,
 a:hover,
 a:active {
+    color: black;
     text-decoration: none;
 }
 
@@ -51,12 +53,80 @@ img {
 /*********** header ***********/
 
 
+.header {
+    height: 50px;
+    border-bottom: 1px solid;
+}
+
+.title-1 {
+    float: left;
+    width: 33%;
+    border: 1px solid;
+}
+
+.title-1 > img {
+    width: 20px;
+    height: 20px;
+}
+
+.title-2  {
+    float: right;
+    width: 33%;
+    border: 1px solid;
+}
+
+.title-2 > img {
+    width: 20px;
+    height: 20px;
+}
+
+.title-3 {
+    float: right;
+    width: 33%;
+    border: 1px solid;
+}
 
 /*********** header ***********/
 
 /************ body ************/
 
+.body .slide-info {
+    height: 150%;
+    padding: 20px;
+    position: relative;
+    border-bottom: 1px solid;
+}
 
+.body .slide-info > a h5 {
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.body .slide-info > a p {
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.body .slide-info .slide-button > li  {
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    border-radius: 200px;
+    background-color: #B0B9C0;
+}
+
+.body .slide-info .slide-button > li:nth-child(1)  {
+    background-color: brown;
+}
+
+.body .slide-info .slide-img {
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    top: 50%;
+    right: 20px;
+    position: absolute;
+}
 
 /************ body ************/
 
