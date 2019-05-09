@@ -50,13 +50,27 @@ img {
     margin: 0 auto;
 }
 
+.clear-both {
+    clear: both;
+}
+
 /*********** header ***********/
 
 .header {
     width: 100%;
     height: 50px;
     padding: 15px;
-    border-bottom: 1px solid;
+    text-align: center;
+    border-bottom: 1px solid #bfcad2;
+}
+
+/*
+    float 속성으로 가운데정렬이 안되니
+    display 속성을 적용하여 .header에서 text-align 속성을 주어
+    가운데정렬을 한다.
+*/
+.main-title {
+    display: inline-block;
 }
 
 .header .main-title > img {
@@ -81,46 +95,204 @@ img {
 /************ body ************/
 
 .body .slide-info {
-    height: 150%;
-    padding: 20px;
-    position: relative;
-    border-bottom: 1px solid;
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    border-bottom: 1px solid #bfcad2;
 }
 
-.body .slide-info > a h5 {
-    margin-bottom: 15px;
+.body .slide-info .slide-info-title h5 {
     font-size: 12px;
+    margin-bottom: 10px;
 }
 
-.body .slide-info > a p {
-    margin-bottom: 15px;
+.body .slide-info .slide-info-title p {
     font-size: 13px;
+    margin-bottom: 10px;
 }
 
-.body .slide-info .slide-button > li  {
+.body .slide-info .slide-info-title img {
+    width: 70px;
+    height: 70px;
+    float: right;
+}
+
+.body .slide-info .slide-button li {
     width: 7px;
     height: 7px;
-    display: inline-block;
+    float: left;
+    margin-top: 4px;
+    margin-right: 5px;
     border-radius: 200px;
     background-color: #B0B9C0;
 }
 
-.body .slide-info .slide-button > li:nth-child(1)  {
-    background-color: brown;
+.body .slide-info .slide-button li:nth-child(1) {
+    background-color: crimson;
 }
 
-.body .slide-info .slide-img {
-    width: 70px;
-    height: 70px;
-    margin-top: -35px;
-    top: 50%;
-    right: 20px;
-    position: absolute;
+.body .individual,
+.body .corporation {
+    width: 50%;
+    padding: 15px;
+    border: 1px solid #bfcad2;
+}
+
+.body .individual {
+    float: left;
+}
+
+.body .corporation {
+    float: right;
+}
+
+.body .individual h4,
+.body .corporation h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.body .individual p,
+.body .corporation p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.body .individual ul li img,
+.body .corporation ul li img {
+    width: 10px;
+    height: 10px;
+}
+
+.body .individual ul li span,
+.body .corporation ul li span {
+    font-size: 12px;
+}
+
+.body .individual button,
+.body .corporation button {
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.body .process div {
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #bfcad2;
+}
+
+.body .process div:nth-child(1) {
+    float: left;
+}
+
+.body .process div:nth-child(2) {
+    float: right;
+}
+
+.body .process div:nth-child(3) {
+    float: left;
+}
+
+.body .process div:nth-child(4) {
+    float: right;
+}
+
+.body .process img:nth-child(1) {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 5px;
+}
+
+.body .process img:nth-child(3) {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 4px;
+}
+
+.body .process h4 {
+    float: left;
+    font-size: 15px;
+    margin-top: 4px;
 }
 
 /************ body ************/
 
 /*********** footer ***********/
+
+.footer {
+    padding: 15px;
+}
+
+.footer .operations {
+    border-bottom: 1px solid #bfcad2;
+}
+
+.footer .operation-date img {
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.footer .operation-date h5 {
+    font-size: 12px;
+
+}
+
+.footer .operation-date p {
+    font-size: 11px;
+}
+
+.operation-date {
+    clear: both;
+}
+
+.footer .operations h3 {
+    clear: left;
+    text-align: center;
+}
+
+
+.footer .operations button {
+    float: right;
+}
+
+
+.footer .info {
+    width: 100%;
+    text-align: center;
+}
+
+/*
+   float 속성으로 가운데 정렬이 안된다.
+   가운데 정렬을 하더라도 left, right(px, %) 조절하면서 정렬을 시킬 수 있으나,
+   창이 가변적으로 달라질 경우 왼쪽또는 오른쪽으로 쏠림 현상이 나타난다.
+   position 이나 display 중에 그나마 display 속성으로 처리하는게 가장 심플하여
+   display: inline-block; 처리
+*/
+
+.footer .info li {
+    font-size: 12px;
+    margin-top: 10px;
+    padding-right: 5px;
+    display: inline-block;
+}
+
+.footer .info li:nth-child(-n+3) {
+    border-right: 1px solid #bfcad2;
+}
+
+.footer .copywriter {
+    clear: both;
+    margin-top: 10px;
+    font-size: 11px;
+    text-align: center;
+}
+
+
 
 
 
