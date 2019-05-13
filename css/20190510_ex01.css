@@ -1,0 +1,131 @@
+/***** default *****/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Malgun Gothic', sans-serif;
+    line-height: 1.4;
+}
+
+html {
+    height: 100%;
+    color: #333;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+    /* 추가작업 */
+    width: 100%;
+    margin: 20px auto;
+    height: 200px;
+    text-align: center;
+    border: 1px solid #bfcad2;
+}
+
+th, td {
+    border: 1px solid #444444;
+    padding: 10px;
+}
+
+img {
+    background-color: #fff;
+}
+
+h4 {
+    /* 추가작업 */
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+}
+
+/******************/
+/***** layout *****/
+/******************/
+.wrapper {
+    width: 100%;
+    min-width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*********** header ***********/
+
+.header {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    position: relative;
+    border: 1px solid #bfcad2;
+}
+
+.header .top > button{
+    right: 10px;
+    top: 50%;
+    margin-top: -15px;
+    position: absolute;
+}
+
+/*********** header ***********/
+
+/************ body ************/
+
+.body {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #bfcad2;
+}
+
+.body .menu {
+    width: 200px;
+    height: 100%; 
+    position: absolute;
+    border: 1px solid #bfcad2;
+}
+
+.body .contents {
+    min-width: 1300px;
+    height: 100%;
+    padding: 20px;
+    left: 200px;
+    position: absolute;
+    border: 1px solid #bfcad2;
+}
+
+/************ body ************/
+
+/*********** footer ***********/
+
+.footer {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #bfcad2;
+}
+
+/*********** footer ***********/
