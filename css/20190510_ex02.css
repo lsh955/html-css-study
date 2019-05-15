@@ -54,6 +54,7 @@ img {
 }
 
 h4 {
+    /* 추가작업 */
     color: gray;
     font-size: 20px;
     text-align: center;
@@ -69,7 +70,7 @@ button {
 /******************/
 .wrapper {
     width: 100%;
-    min-width: 1200px;
+    min-width: 1300px;
     height: 100%;
     margin: 0 auto;
 }
@@ -80,16 +81,14 @@ button {
     width: 100%;
     height: 50px;
     padding: 10px;
+    position: relative;
     border: 1px solid #bfcad2;
 }
 
-.header .top {
-    position: relative;
-}
-
-.header .top > button {
-    margin-top: -30px;
-    right: 0;
+.header .top > button{
+    right: 10px;
+    top: 50%;
+    margin-top: -15px;
     position: absolute;
 }
 
@@ -98,19 +97,25 @@ button {
 /************ body ************/
 
 .body {
+    width: 100%;
     height: 100%;
-    display: flex;
+    border: 1px solid #bfcad2;
 }
 
 .body .menu {
-    min-width: 200px;
+    width: 200px;
+    height: 100%;
+    position: absolute;
     border: 1px solid #bfcad2;
 }
 
 .body .contents {
-    width: 100%;
-    min-width: 1300px;
+    min-width: 1200px;
+    height: 100%;
     padding: 20px;
+
+    left: 200px;
+    position: absolute;
     border: 1px solid #bfcad2;
 }
 
