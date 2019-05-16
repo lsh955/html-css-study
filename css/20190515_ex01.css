@@ -116,14 +116,12 @@ button {
     bottom: 50px;
     position: absolute;
 
-
     border: 1px solid #bfcad2;
     background-color: #f0f4f6;
 }
 
 .body .contents {
     padding: 10px;
-
     overflow: auto;
 
     top: 50px;
