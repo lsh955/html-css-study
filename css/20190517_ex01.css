@@ -1,0 +1,181 @@
+/***** default *****/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Malgun Gothic', sans-serif;
+    line-height: 1.4;
+}
+
+html {
+    height: 100%;
+    color: #333;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    /* 추가작업 */
+    width: 100%;
+    margin: 20px auto;
+    height: 200px;
+    text-align: center;
+    border: 1px solid #bfcad2;
+}
+
+th, td {
+    border: 1px solid #444444;
+    padding: 10px;
+}
+
+img {
+    background-color: #fff;
+}
+
+h4 {
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+}
+
+/******************/
+/***** layout *****/
+/******************/
+.wrapper {
+    margin: 0 auto;
+    min-width: 1200px;
+    height: 100%;
+}
+
+/*********** header ***********/
+
+.header {
+    width: 100%;
+    height: 50px;
+
+    position: relative;
+
+    border: 1px solid #bfcad2;
+    background-color: #f0f4f6;
+}
+
+.header .top-left {
+    padding: 10px;
+
+    position: absolute;
+    width: 200px;
+}
+
+.header .top-right {
+    padding: 10px;
+
+    position: absolute;
+    left: 200px;
+    right: 0;
+}
+
+.header .top-right > button{
+    margin-top: -30px;
+
+    position: absolute;
+    right: 10px;
+}
+
+
+/*********** header ***********/
+
+/************ body ************/
+
+.body {
+    width: 100%;
+    position: relative;
+    background-color: #ffff;
+}
+
+.body .menu {
+    width: 200px;
+
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    border: 1px solid #bfcad2;
+    background-color: #f0f4f6;
+}
+
+.body .search {
+    height: 50px;
+    padding: 10px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 200px;
+
+    border: 1px solid #bfcad2;
+    background-color: #f0f4f6;
+}
+
+.body .contents {
+    padding: 10px;
+
+    position: absolute;
+    top: 50px;
+    right: 0;
+    left: 200px;
+
+    border: 1px solid #bfcad2;
+    background-color: #ffff;
+}
+
+/************ body ************/
+
+/*********** footer ***********/
+
+
+.footer {
+    position: relative;
+}
+
+.footer .down {
+    height: 50px;
+    padding: 10px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    border: 1px solid #bfcad2;
+    background-color: #f0f4f6;
+}
+
+/*********** footer ***********/
