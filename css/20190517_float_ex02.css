@@ -70,7 +70,6 @@ button {
 .wrapper {
     width: 100%;
     min-width: 1200px;
-    height: 100%;
     margin: 0 auto;
 }
 
@@ -101,7 +100,7 @@ button {
     right: 0;
 }
 
-.header .top-right > button{
+.header .top-right > button {
     margin-top: -30px;
 
     position: absolute;
@@ -115,8 +114,7 @@ button {
 
 .body {
     width: 100%;
-    height: 100%;
-    background-color: #ffffff;
+    background-color: aqua;
 }
 
 .body .menu {
@@ -128,7 +126,6 @@ button {
     border: 1px solid #bfcad2;
     background-color: #f0f4f6;
 }
-
 
 .body .info {
     margin-left: 200px;
@@ -148,7 +145,6 @@ button {
 /************ body ************/
 
 /*********** footer ***********/
-
 
 .footer {
     width: 100%;
