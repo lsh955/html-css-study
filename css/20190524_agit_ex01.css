@@ -1,0 +1,117 @@
+/***** default *****/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Malgun Gothic', sans-serif;
+    line-height: 1.4;
+}
+
+html {
+    height: 100%;
+    color: #333;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+/******************/
+/***** layout *****/
+/******************/
+.wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*********** header ***********/
+
+.header {
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    
+    position: relative;
+    
+    border: 1px solid #d0d0d0;
+    background-color: #ffffff;
+}
+
+.header .header_log {
+    position: absolute;
+}
+
+.header .header_log > img {
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.header .header_log > span {
+    color: #497BD8;
+    font-size: 18px;
+    margin-left: 5px;
+    
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .header_search {
+    width: 45%;
+    height: 40px;
+    
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    
+    border-radius: 100px;
+    border: 1px solid #d0d0d0;
+}
+
+.header .header_search > input {
+    width: 90%;
+    height: 40px;
+    margin-left: 10px;
+    
+    float: left;
+    
+    border: 1px solid rgba(0, 255, 0, 0);
+    background-color: rgba(0, 255, 0, 0);
+}
+
+
+/*********** header ***********/
+
+/************ body ************/
+
+
+
+/************ body ************/
