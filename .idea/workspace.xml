@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f64c7a32-ec21-4591-9da6-e76f56ab3e77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190524_agit_ex01.html" beforeDir="false" afterPath="$PROJECT_DIR$/20190524_agit_ex01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/20190524_agit_ex01.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/20190524_agit_ex01.css" afterDir="false" />
-    </list>
+    <list default="true" id="f64c7a32-ec21-4591-9da6-e76f56ab3e77" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +32,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/20190524_agit_ex01.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="73">
-                  <caret line="546" column="1" lean-forward="true" selection-start-line="546" selection-start-column="1" selection-end-line="546" selection-end-column="1" />
+                <state relative-caret-position="617">
+                  <caret line="578" selection-start-line="578" selection-end-line="578" />
                 </state>
               </provider>
             </entry>
@@ -104,8 +100,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-159" />
-    <option name="y" value="-22" />
+    <option name="x" value="1112" />
+    <option name="y" value="518" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -225,7 +221,7 @@
       <workItem from="1558566752021" duration="842000" />
       <workItem from="1558687682139" duration="403000" />
       <workItem from="1558948263760" duration="168000" />
-      <workItem from="1558998988432" duration="634000" />
+      <workItem from="1558998988432" duration="738000" />
     </task>
     <task id="LOCAL-00001" summary="20190418_최초커밋">
       <created>1555577633150</created>
@@ -563,11 +559,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558948331198</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="20190528_최초커밋">
+      <created>1559034818412</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1559034818412</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79690000" />
+    <option name="totallyTimeSpent" value="79794000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -579,8 +582,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12953092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -617,7 +619,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="meta태그추가및 DOCTYPE 변경" />
     <MESSAGE value="20190430_작업" />
     <MESSAGE value="신규파일추가및 수정" />
     <MESSAGE value="CSS수정" />
@@ -642,7 +643,8 @@
     <MESSAGE value="20190512_6차미션_CSS내용수정" />
     <MESSAGE value="20190524_최초커밋" />
     <MESSAGE value="20190527_작업" />
-    <option name="LAST_COMMIT_MESSAGE" value="20190527_작업" />
+    <MESSAGE value="20190528_최초커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="20190528_최초커밋" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/20190422_ex01.css" />
@@ -761,17 +763,17 @@
     <entry file="file://$PROJECT_DIR$/20190523_ex01.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/20190524_agit_ex01.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="546" column="1" lean-forward="true" selection-start-line="546" selection-start-column="1" selection-end-line="546" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/20190524_agit_ex01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/20190524_agit_ex01.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="578" selection-start-line="578" selection-end-line="578" />
         </state>
       </provider>
     </entry>

@@ -582,7 +582,7 @@ input::placeholder {
 }
 
 .body .center_side .privacy .contents_null {
-    margin-top: 50px;
+    margin: 50px 0px 150px;
 
     text-align: center;
     font-size: 14px;
