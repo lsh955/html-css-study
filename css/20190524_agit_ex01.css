@@ -35,11 +35,26 @@ a:active {
 }
 
 table {
+    font-size: 14px;
+    text-align: left;
     table-layout: fixed;
     border-collapse: collapse;
     border-spacing: 0;
 }
 
+tr {
+    height: 40px;
+}
+
+tr th {
+    width: 80px;
+    font-weight: 500;
+}
+
+tr td {
+    width: 350px;
+    font-weight: 500;
+}
 
 /* 추가작업 */
 input:focus {
@@ -49,6 +64,18 @@ input:focus {
 input::placeholder {
     color: #a6a9ac;
     font-size: 14px;
+}
+
+.clear_both {
+    clear: both;
+}
+
+.clear_left {
+    clear: left;
+}
+
+.clear_right {
+    clear: right;
 }
 /* //추가작업 */
 
@@ -146,14 +173,40 @@ input::placeholder {
 /************ body ************/
 
 .body {
+    width: 100%;
+    height: 100%;
     padding-top: 100px;
 }
 
-/*왼쪽 사이드 메뉴*/
+.body .side_group {
+    width: 1100px;
+}
+
+/*왼쪽 콘텐츠 영역*/
 .body .left_side {
-    width: 238px;
-    margin: 0 15px;
+    width: 240px;
+    margin: 0 20px;
+
     float: left;
+}
+
+/*중앙 콘텐츠 영역*/
+.body .center_side {
+    width: 730px;
+
+    float: left;
+}
+
+/*오른쪽 콘텐츠 영역*/
+.body .right_side {
+    width: 270px;
+
+    position: fixed;
+    top: 70px;
+    right: 0;
+    bottom: 0;
+    background-color: #f5f5f5;
+    border: 1px solid #dfe7e9;
 }
 
 .body .left_side .left_header {
@@ -175,7 +228,7 @@ input::placeholder {
     background-color: #5a86dd;
 }
 
-.body .left_side .left_header > img {
+.body .left_side .left_header img {
     width: 50px;
     height: 50px;
 
@@ -186,56 +239,25 @@ input::placeholder {
     background-color: #cccccc;
 }
 
-.body .left_side .left_header > ul {
+.body .left_side .left_header ul {
+    width: 130px;
     display: inline-block;
     vertical-align: middle;
 }
 
-.body .left_side .left_header > ul li:nth-child(1) {
+.body .left_side .left_header ul li:nth-child(1) {
     font-weight: bold;
     font-size: 15px;
 }
 
-.body .left_side .left_header > ul li:nth-child(2) {
+.body .left_side .left_header ul li:nth-child(2) {
     font-size: 13px;
 }
-
-/*
-.body .left_side .left_header .work_list {
-    width: 250px;
-    height: 70px;
-    background-color: #ffffff;
-}
-
-.body .left_side .left_header .work_list > li {
-    width: 60px;
-    height: 70px;
-    padding: 9px;
-
-    display: inline-block;
-    border: 1px solid #5B6DCD;
-}
-
-.body .left_side .left_header .work_list > li img {
-    width: 30px;
-    height: 30px;
-}
-
-.body .left_side .left_header .work_list > li span {
-    font-size: 10px;
-    display: flex;
-}
-*/
-
 
 .body .left_side .member {
     height: 45px;
     margin-top: 10px;
     background-color: #ffffff;
-}
-
-.body .left_side .member > ul {
-
 }
 
 .body .left_side .member > ul li {
@@ -249,7 +271,7 @@ input::placeholder {
     border: 1px solid #dcdfe4;
 }
 
-.body .left_side .member > ul li span {
+.body .left_side .member > ul li a span {
     font-size: 14px;
     color: #5a86dd;
 }
@@ -262,13 +284,13 @@ input::placeholder {
     background-color: #5a86dd;
 }
 
-.body .left_side .new_group > img {
+.body .left_side .new_group > a img {
     width: 20px;
     height: 20px;
     float: left;
 }
 
-.body .left_side .new_group > span {
+.body .left_side .new_group > a span {
     font-size: 14px;
     color: #ffffff;
 }
@@ -278,7 +300,7 @@ input::placeholder {
     padding-top: 13px;
 }
 
-.body .left_side .menu_setting > ul li {
+.body .left_side .menu_setting a {
     color: #979797;
     font-size: 13px;
     display: inline;
@@ -313,9 +335,17 @@ input::placeholder {
     vertical-align: middle;
 }
 
-.body .left_side .service_menu .contents_menu_01 > h4,
-.body .left_side .service_menu .contents_menu_02 > h4,
-.body .left_side .service_menu .contents_menu_03 > h4 {
+.body .left_side .service_menu .contents_menu_01 > a h4,
+.body .left_side .service_menu .contents_menu_02 > a h4,
+.body .left_side .service_menu .contents_menu_03 > a h4 {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.body .left_side .service_menu .contents_menu_01 > a span,
+.body .left_side .service_menu .contents_menu_02 > a span,
+.body .left_side .service_menu .contents_menu_03 > a span {
     font-size: 14px;
     display: inline-block;
     vertical-align: middle;
@@ -333,7 +363,8 @@ input::placeholder {
 .body .left_side .service_menu .contents_menu_01 > ul li:hover,
 .body .left_side .service_menu .contents_menu_02 > ul li:hover,
 .body .left_side .service_menu .contents_menu_03 > ul li:hover {
-    transition: all 0.2s; /* 애니메이션 속도조절(쓰는것과 안쓰는것에 차이가 분명하게 두드러 진다. 자세히보면..) */
+    margin-left: 25px; /* 할 필요는 없으나 신기해서 넣었다. */
+    transition: all 0.2s; /* transition : 애니메이션 속도조절 */
     background-color: #ececec;
 }
 
@@ -356,19 +387,221 @@ input::placeholder {
     padding: 10px 0;
 }
 
-.body .left_side .left_footer > ul li {
-    margin: 0 5px;
+.body .left_side .left_footer > ul li  {
+    margin: 0 0 0 5px;
     font-size: 11px;
-    display: inline;
+    display: inline-block;
 }
 
 .body .left_side .left_footer > ul li:nth-child(1) {
     font-weight: bold;
 }
 
-.body .contents {
-    float: left;
+.body .left_side .left_footer > ul li:nth-child(n+2) a {
+    color: #8F8F8F
 }
+
+.body .center_side .Help {
+    width: 100%;
+    height: 40px;
+    padding-top: 11px;
+    padding-left: 50px;
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #4b5872;
+}
+
+.body .center_side .Help > img {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.body .center_side .info_card {
+    height: 380px;
+    padding: 20px 40px;
+    background-color: #fff;
+    border: 3px solid #dcdfe4;
+}
+
+.body .center_side .info_card .name_id {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.body .center_side .info_card .name_id .mail > ul img {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #ccc;
+}
+
+/* img class클래스에 스크립트 "addclass"속성을 써서
+   .on 추가하면 지정한 컬러(녹색)으로 접속했다는 느낌을 줘 봤다.(.on빼면 기본컬러) */
+.body .center_side .info_card .name_id .mail .on {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #2ecc71;
+}
+
+.body .center_side .info_card .name_id .mail > ul li:nth-child(1){
+    font-weight: bold;
+    font-size: 20px;
+
+    float: left;
+    clear: both;
+}
+
+.body .center_side .info_card .name_id .mail > ul li:nth-child(3){
+    color: #666;
+    font-size: 14px;
+    float: left;
+    clear: both;
+}
+
+.body .center_side .info_card .name_id .name {
+    font-size: 15px;
+    float: right;
+}
+
+.body .center_side .info_card .name_info{
+    border-top: 1px solid #e4e4e4;
+    padding: 20px 0;
+}
+
+/*프로필 사진*/
+.body .center_side .info_card .name_info > img {
+    width: 160px;
+    height: 160px;
+
+    float: left;
+
+    border-radius: 100%;
+}
+
+.body .center_side .info_card .privacy_info {
+    margin-left: 200px;
+}
+
+/*수정버튼*/
+.body .center_side .info_card .privacy_info > img {
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+
+.body .center_side .privacy .contents_tab {
+    height: 53px;
+    margin-top: 20px;
+    border-bottom: 2px solid #485060;
+}
+
+.body .center_side .privacy .contents_tab > ul a li {
+    font-size: 14px;
+    padding: 15px 20px;
+    float: left;
+    border: 1px solid #a6a6a6;
+    background-color: #ffffff;
+}
+
+.body .center_side .privacy .contents_tab > ul a li {
+    color: #a6a6a6;
+}
+
+/* li class클래스에 스크립트 "addclass"속성을 써서
+   .on 추가하면 지정한 컬러(파란색)로 눌렀다는 느낌을 줘 봤다.(.on빼면 기본컬러) */
+.body .center_side .privacy .contents_tab .on {
+    color: #497bd8;
+}
+
+.body .center_side .privacy .card_contents {
+    margin-top: 15px;
+    padding: 20px;
+    border: 1px solid #dcdfe4;
+    background-color: #ffffff;
+}
+
+.body .center_side .privacy .card_contents .manu_text {
+    height: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.body .center_side .privacy .card_contents .name_text {
+    height: 50px;
+    margin: 20px 0;
+}
+
+.body .center_side .privacy .card_contents .name_text > img {
+    width: 50px;
+    height: 50px;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    border-radius: 100%;
+}
+
+.body .center_side .privacy .card_contents .name_text > ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.body .center_side .privacy .card_contents .name_text > ul li:nth-child(1) {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.body .center_side .privacy .card_contents .name_text > ul li:nth-child(2) {
+    font-size: 11px;
+    color: #979797;
+}
+
+.body .center_side .privacy .card_contents .main_text {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.body .center_side .privacy .card_contents .img_button {
+    height: 20px;
+}
+
+.body .center_side .privacy .card_contents .img_button > img,
+.body .center_side .privacy .card_contents .img_button .right_button > img {
+    width: 30px;
+    height: 20px;
+}
+
+.body .center_side .privacy .card_contents .img_button .right_button {
+    display: inline-block;
+    float: right;
+}
+
+.body .center_side .privacy .contents_null {
+    margin-top: 50px;
+
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
