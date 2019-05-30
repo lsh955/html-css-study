@@ -100,8 +100,7 @@ input::placeholder {
     position: fixed;
 
     border-bottom: 1px solid #d0d0d0;
-    /* background 반투명 처리 */
-    background-color: rgba(255, 255, 255, 0.96);
+    background-color: rgba(255, 255, 255, 0.96); /* background 반투명 처리 */
 }
 
 .header .header_log {
@@ -125,12 +124,12 @@ input::placeholder {
 }
 
 .header .header_log > span {
-    color: #497BD8;
-    font-size: 19px;
     margin-left: 5px;
+    font-size: 19px;
 
-    display: inline-block;
     vertical-align: middle;
+
+    color: #497BD8;
 }
 
 .header .header_search {
@@ -151,6 +150,7 @@ input::placeholder {
     margin-left: 10px;
 
     float: left;
+    clear: both;
 
     border: 1px solid rgba(0, 255, 0, 0);
     background-color: rgba(0, 255, 0, 0);
@@ -178,14 +178,19 @@ input::placeholder {
     padding-top: 100px;
 }
 
+
+
 .body .side_group {
     width: 1100px;
+
+    margin: 0 auto;
 }
+
 
 /*왼쪽 콘텐츠 영역*/
 .body .left_side {
     width: 240px;
-    margin: 0 20px;
+    margin: 0 0 0 20px;
 
     float: left;
 }
@@ -193,6 +198,7 @@ input::placeholder {
 /*중앙 콘텐츠 영역*/
 .body .center_side {
     width: 730px;
+    margin: 0 0 0 20px;
 
     float: left;
 }
@@ -205,25 +211,26 @@ input::placeholder {
     position: fixed;
     top: 70px;
     right: 0;
-    bottom: 0;
-    background-color: #f5f5f5;
+
     border: 1px solid #dfe7e9;
+    background-color: #f5f5f5;
 }
+
+
 
 .body .left_side .left_header {
     height: 100px;
     padding: 25px;
 
-    background-color: #ffffff;
     border: 1px solid #dcdfe4;
+    background-color: #ffffff;
 }
 
 .body .left_side .left_header .condition {
     width: 7px;
     height: 7px;
 
-    position: absolute;
-    left: 40px;
+    float: left;
 
     border-radius: 100%;
     background-color: #5a86dd;
@@ -233,26 +240,52 @@ input::placeholder {
     width: 50px;
     height: 50px;
 
-    display: inline-block;
     vertical-align: middle;
 
     border-radius: 100%;
     background-color: #cccccc;
 }
 
-.body .left_side .left_header ul {
-    width: 130px;
+.body .left_side .left_header > a ul {
     display: inline-block;
     vertical-align: middle;
 }
 
-.body .left_side .left_header ul li:nth-child(1) {
+.body .left_side .left_header > a ul li:nth-child(1) {
     font-weight: bold;
     font-size: 15px;
 }
 
-.body .left_side .left_header ul li:nth-child(2) {
+.body .left_side .left_header > a ul li:nth-child(2) {
     font-size: 13px;
+}
+
+.body .left_side .header_nume {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}
+
+.body .left_side .header_nume > ul li {
+    width: 25%;
+    height: 60px;
+
+    float: left;
+
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #dcdfe4;
+}
+
+.body .left_side .header_nume > ul li img {
+    width: 25px;
+    height: 25px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+}
+
+.body .left_side .header_nume > ul li p {
+    text-align: center;
 }
 
 .body .left_side .member {
@@ -281,6 +314,7 @@ input::placeholder {
     height: 45px;
     padding: 13px;
     margin-top: 10px;
+
     text-align: center;
     background-color: #5a86dd;
 }
@@ -288,6 +322,7 @@ input::placeholder {
 .body .left_side .new_group > a img {
     width: 20px;
     height: 20px;
+
     float: left;
 }
 
@@ -301,10 +336,10 @@ input::placeholder {
     padding-top: 13px;
 }
 
-.body .left_side .menu_setting a {
-    color: #979797;
+.body .left_side .menu_setting > ul li a {
     font-size: 13px;
-    display: inline;
+
+    color: #979797;
 }
 
 .body .left_side .menu_setting > ul li:nth-child(1) {
@@ -321,40 +356,43 @@ input::placeholder {
 
 .body .left_side .service_menu .contents_menu {
     padding: 10px 0;
+
     border-top: 1px solid #e9e9e9;
     border-bottom: 1px solid #e9e9e9;
 }
 
-.body .left_side .service_menu .contents_menu > img,
-.body .left_side .service_menu .contents_menu > img,
 .body .left_side .service_menu .contents_menu > img {
     width: 20px;
     height: 20px;
-    display: inline-block;
+
     vertical-align: middle;
 }
 
 .body .left_side .service_menu .contents_menu > a h4 {
     font-size: 14px;
-    display: inline-block;
+
+    display: inline;
     vertical-align: middle;
 }
 
 .body .left_side .service_menu .contents_menu > a span {
     font-size: 14px;
-    display: inline-block;
+
+    display: inline;
     vertical-align: middle;
 }
 
 .body .left_side .service_menu .contents_menu > ul li a {
     line-height: 25px;
     margin-left: 25px;
+
     font-size: 14px;
     color: #808080;
 }
 
 .body .left_side .service_menu .contents_menu > ul li:hover {
     margin-left: 25px; /* 할 필요는 없으나 신기해서 넣었다. */
+
     transition: all 0.2s; /* transition : 애니메이션 속도조절 */
     background-color: #ececec;
 }
@@ -372,13 +410,15 @@ input::placeholder {
 }
 
 .body .left_side .left_footer {
-    text-align: center;
     padding: 10px 0;
+
+    text-align: center;
 }
 
 .body .left_side .left_footer > ul li  {
     margin: 0 0 0 5px;
     font-size: 11px;
+
     display: inline-block;
 }
 
@@ -395,6 +435,7 @@ input::placeholder {
     height: 40px;
     padding-top: 11px;
     padding-left: 40px;
+
     font-size: 13px;
     color: #ffffff;
     background-color: #4b5872;
@@ -404,16 +445,16 @@ input::placeholder {
     width: 20px;
     height: 20px;
     margin-right: 20px;
+
     float: right;
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .body .center_side .info_card {
     height: 380px;
     padding: 20px 40px;
-    background-color: #fff;
+
     border: 3px solid #dcdfe4;
+    background-color: #fff;
 }
 
 .body .center_side .info_card .name_id {
@@ -424,6 +465,7 @@ input::placeholder {
 .body .center_side .info_card .name_id .mail > ul img {
     width: 8px;
     height: 8px;
+
     border-radius: 100%;
     background-color: #ccc;
 }
@@ -433,6 +475,7 @@ input::placeholder {
 .body .center_side .info_card .name_id .mail .on {
     width: 8px;
     height: 8px;
+
     border-radius: 100%;
     background-color: #2ecc71;
 }
@@ -442,7 +485,6 @@ input::placeholder {
     font-size: 20px;
 
     float: left;
-    clear: both;
 }
 
 .body .center_side .info_card .name_id .mail > ul li:nth-child(3){
@@ -457,7 +499,7 @@ input::placeholder {
     float: right;
 }
 
-.body .center_side .info_card .name_info{
+.body .center_side .info_card .name_info {
     border-top: 1px solid #e4e4e4;
     padding: 20px 0;
 }
@@ -468,6 +510,7 @@ input::placeholder {
     height: 160px;
 
     float: left;
+    clear: both;
 
     border-radius: 100%;
 }
@@ -476,29 +519,22 @@ input::placeholder {
     margin-left: 200px;
 }
 
-/*수정버튼*/
-.body .center_side .info_card .privacy_info > img {
-    width: 40px;
-    height: 40px;
-    float: right;
-}
-
 .body .center_side .privacy .contents_tab {
     height: 53px;
     margin-top: 20px;
+
     border-bottom: 2px solid #485060;
 }
 
 .body .center_side .privacy .contents_tab > ul a li {
-    font-size: 14px;
     padding: 15px 20px;
+
     float: left;
+
+    font-size: 14px;
+    color: #a6a6a6;
     border: 1px solid #a6a6a6;
     background-color: #ffffff;
-}
-
-.body .center_side .privacy .contents_tab > ul a li {
-    color: #a6a6a6;
 }
 
 /* li class클래스에 스크립트 "addclass"속성을 써서
@@ -510,6 +546,7 @@ input::placeholder {
 .body .center_side .privacy .card_contents {
     margin-top: 15px;
     padding: 20px;
+
     border: 1px solid #dcdfe4;
     background-color: #ffffff;
 }
@@ -517,6 +554,7 @@ input::placeholder {
 .body .center_side .privacy .card_contents .manu_text {
     height: 20px;
     margin-bottom: 10px;
+
     font-size: 14px;
 }
 
@@ -529,7 +567,6 @@ input::placeholder {
     width: 50px;
     height: 50px;
 
-    display: inline-block;
     vertical-align: middle;
 
     border-radius: 100%;
@@ -566,7 +603,6 @@ input::placeholder {
 }
 
 .body .center_side .privacy .card_contents .img_button .right_button {
-    display: inline-block;
     float: right;
 }
 
@@ -577,12 +613,32 @@ input::placeholder {
     font-size: 14px;
 }
 
+.body .button {
+    width: 28px;
+    height: 35px;
+    padding: 6px;
+
+    position: fixed;
+    right: 270px;
+
+    background-color: #fafbfc;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px 0 0 5px;
+}
+
+.body .close {
+    width: 15px;
+    height: 15px;
+
+    margin-top: 3px;
+}
+
 .body .right_side .event_title{
     margin-bottom: 10px;
     padding: 10px 20px 0;
 }
 
-.body .right_side .event_title  > span {
+.body .right_side .event_title > span {
     font-size: 13px;
     color: #666;
 
@@ -611,28 +667,34 @@ input::placeholder {
 }
 
 .body .right_side .event > ul li {
+    height: 60px;
     margin-bottom: 10px;
-
 }
 
 .body .right_side .event > ul li img {
     width: 35px;
     height: 35px;
+
     float: left;
+
     border-radius: 100%;
 }
 
 .body .right_side .event > ul li p {
-    width: 185px;
+    width: 170px;
+    height: 70px;
+    margin-left: 45px;
+
     font-size: 13px;
     color: #777;
-    margin-left: 45px;
 }
 
 .body .right_side .control_bar {
     height: 7px;
     padding: 1px;
+
     text-align: center;
+
     border-top: 1px solid #dfe7e9;
     border-bottom: 1px solid #dfe7e9;
 }
@@ -640,13 +702,6 @@ input::placeholder {
 .body .right_side .control_bar > img {
     width: 13px;
     height: 3px;
-}
-
-.body .right_side .chatting {
-}
-
-.body .right_side .member_search {
-    height: 40px;
 }
 
 .body .member_search > img {
@@ -657,8 +712,10 @@ input::placeholder {
 .body .member_search > input {
     width: 230px;
     height: 40px;
-    border: 0;
+
     position: absolute;
+
+    border: 0;
 }
 
 .body .right_side .chatting {
@@ -672,9 +729,11 @@ input::placeholder {
 
 .body .right_side .chatting .title > p {
     font-size: 13px;
-    color: #888;
-    display: inline-block;
+
+    display: inline;
     vertical-align: middle;
+
+    color: #888;
 }
 
 .body .right_side .chatting .title > img {
@@ -694,15 +753,18 @@ input::placeholder {
 .body .right_side .chatting .manber > ul li .condition {
     width: 7px;
     height: 7px;
+
     border-radius: 100%;
     background-color: #ccc;
 }
 
 .body .right_side .chatting .manber > ul li span {
-    color: #777;
     margin-left: 5px;
+
     font-size: 14px;
     vertical-align: middle;
+
+    color: #777;
 }
 
 

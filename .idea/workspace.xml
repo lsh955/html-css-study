@@ -23,8 +23,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/20190524_agit_ex01.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+                <state relative-caret-position="221">
+                  <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -36,8 +36,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/20190524_agit_ex01.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="838">
-                  <caret line="712" column="32" selection-start-line="712" selection-start-column="32" selection-end-line="712" selection-end-column="32" />
+                <state relative-caret-position="328">
+                  <caret line="744" column="18" lean-forward="true" selection-start-line="744" selection-start-column="18" selection-end-line="744" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -104,10 +104,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1112" />
-    <option name="y" value="518" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1993" />
+    <option name="y" value="-12" />
+    <option name="width" value="1152" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -115,7 +115,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,16 +123,11 @@
               <item name="html-css" type="b2602c69:ProjectViewProjectNode" />
               <item name="html-css" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="html-css" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html-css" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,14 +222,9 @@
       <workItem from="1558948263760" duration="168000" />
       <workItem from="1558998988432" duration="738000" />
       <workItem from="1559035148278" duration="52000" />
-      <workItem from="1559085323353" duration="848000" />
-    </task>
-    <task id="LOCAL-00002" summary="css 변경">
-      <created>1555632395965</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1555632395965</updated>
+      <workItem from="1559085323353" duration="1025000" />
+      <workItem from="1559172542732" duration="206000" />
+      <workItem from="1559173182920" duration="2564000" />
     </task>
     <task id="LOCAL-00003" summary="css 파일명 변경">
       <created>1555919881382</created>
@@ -572,11 +562,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559035186574</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="20190529_최초커밋">
+      <created>1559120911197</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1559120911198</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80694000" />
+    <option name="totallyTimeSpent" value="83641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -591,7 +588,7 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13166311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12313433" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -626,7 +623,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="신규파일추가및 수정" />
     <MESSAGE value="CSS수정" />
     <MESSAGE value="ex03 추가" />
     <MESSAGE value="CSS 수정" />
@@ -651,7 +647,8 @@
     <MESSAGE value="20190527_작업" />
     <MESSAGE value="20190528_최초커밋" />
     <MESSAGE value="20190528_margin값 수정및 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="20190528_margin값 수정및 추가" />
+    <MESSAGE value="20190529_최초커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="20190529_최초커밋" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/20190422_ex01.css" />
@@ -770,17 +767,17 @@
     <entry file="file://$PROJECT_DIR$/20190523_ex01.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/20190524_agit_ex01.css">
+    <entry file="file://$PROJECT_DIR$/20190524_agit_ex01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="712" column="32" selection-start-line="712" selection-start-column="32" selection-end-line="712" selection-end-column="32" />
+        <state relative-caret-position="221">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20190524_agit_ex01.html">
+    <entry file="file://$PROJECT_DIR$/css/20190524_agit_ex01.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        <state relative-caret-position="328">
+          <caret line="744" column="18" lean-forward="true" selection-start-line="744" selection-start-column="18" selection-end-line="744" selection-end-column="18" />
         </state>
       </provider>
     </entry>
