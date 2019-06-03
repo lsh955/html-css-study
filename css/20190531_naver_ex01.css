@@ -1,0 +1,428 @@
+/***** default *****/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Malgun Gothic', sans-serif;
+    line-height: 1.4;
+}
+
+html {
+    height: 100%;
+    color: #333;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+    /* 추가작업*/
+    background-color: #f2f4f7;
+}
+
+li {
+    list-style-type: none;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+table {
+    font-size: 14px;
+    text-align: left;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 추가작업 */
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: #a6a9ac;
+    font-size: 14px;
+}
+
+.clear_both {
+    clear: both;
+}
+
+.clear_left {
+    clear: left;
+}
+
+.clear_right {
+    clear: right;
+}
+/* //추가작업 */
+
+
+/******************/
+/***** layout *****/
+/******************/
+.wrapper {
+    width: 100%;
+    min-width: 1104px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*********** header ***********/
+
+.header {
+    width: 100%;
+    height: 220px;
+
+    background-color: #ffffff;
+    border-bottom: 1px solid #d1d8e4;
+}
+
+.header .domain {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.header .dobar {
+    width: 100%;
+    border-top: 1px solid #f1f3f6;
+}
+
+.header .domain .addition {
+    height: 30px;
+    padding-top: 10px;
+
+    font-size: 0;   /* inline-block 빈여백을 줄이기 위한 해결책? */
+    text-align: right;
+}
+
+.header .domain .addition > ul li {
+    margin-left: 10px;
+
+    display: inline-block;
+
+    font-size: 11px;
+    color: #888;
+}
+
+.header .domain .addition > ul li:nth-child(1) {
+    padding-right: 10px;
+    border-right: 1px solid #ebeef3;
+}
+
+.header .domain .header_contents {
+    font-size: 0;
+
+    margin: 33px 0 60px;
+}
+
+.header .domain .header_contents .logo {    /*로고*/
+    width: 200px;
+    height: 50px;
+
+    vertical-align: middle;
+
+    background-color: #d8d8d8;
+}
+
+.header .domain .header_contents .search {
+    width: 480px;
+    height: 50px;
+
+    margin-left: 50px;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    background-color: #d4d4d4;
+}
+
+.header .domain .header_contents .search .input {
+    width: 420px;
+    height: 50px;
+
+    vertical-align: middle;
+}
+
+.header .domain .header_contents .search .keybord,
+.header .domain .header_contents .search .arrow {
+    width: 30px;
+    height: 50px;
+
+    vertical-align: middle;
+
+    border: 1px solid #a7a7a7;
+    background-color: #d8d8d8;
+}
+
+.header .domain .header_contents .button {
+    width: 50px;
+    height: 50px;
+
+    vertical-align: middle;
+
+    border: 1px solid #a7a7a7;
+    background-color: #d8d8d8;
+}
+
+.header .dobar .service {
+    width: 1080px;
+    height: 44px;
+    padding: 13px 0 13px;
+    margin: 0 auto;
+
+    position: relative;
+
+    font-size: 15px;
+}
+
+.header .dobar .service > ul li {
+    margin-right: 7px;
+
+    display: inline-block;
+
+    font-weight: 800;
+}
+
+.header .dobar .service > ul li:nth-child(-n+7) {
+    color: #00bc53;
+}
+
+.header .dobar .service > ul li:nth-child(+n+8) {
+    color: #000;
+}
+
+.header .dobar .more > p {
+    padding-left: 20px;
+
+    position: absolute;
+    top: 13px;
+    left: 700px;
+
+    font-weight: 800;
+    border-left: 1px solid #ebeef3;
+}
+
+.header .dobar .more > img {
+    width: 15px;
+    height: 20px;
+
+    position: absolute;
+    top: 13px;
+    left: 770px;
+}
+
+.header .dobar .ranking {
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    font-size: 14px;
+}
+
+.header .dobar .ranking > p:nth-child(1) {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .dobar .ranking > p:nth-child(2) {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .dobar .ranking > img {
+    width: 15px;
+    height: 20px;
+
+    float: right;
+}
+
+/*********** header ***********/
+
+/************ contents ************/
+
+.contents {
+    width: 1100px;
+    height: 1500px;
+    margin: 0 auto;
+}
+
+.contents .left {
+    width: 740px;
+    margin: 10px 0 10px 10px;
+
+    float: left;
+}
+
+.contents .right {
+    width: 330px;
+    margin: 10px;
+
+    float: right;
+}
+
+.contents .left .banner {
+    height: 120px;
+    padding: 50px;
+    margin-bottom: 10px;
+
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+
+    background-color: #d8d8d8;
+}
+
+.contents .left .news_line {
+    height: 45px;
+    margin-bottom: 10px;
+
+    background-color: #d8d8d8;
+}
+
+.contents .left .news_contents {
+    height: 235px;
+    margin-bottom: 10px;
+
+    background-color: #d8d8d8;
+}
+
+.contents .left .attention_contents {
+    height: 837px;
+    margin-bottom: 10px;
+
+    background-color: #d8d8d8;
+}
+
+.contents .left .study_contents {
+    height: 130px;
+    margin-bottom: 10px;
+
+    background-color: #d8d8d8;
+}
+
+.contents .right .my_info {
+    height: 120px;
+    margin-bottom: 10px;
+
+    background-color: #d8d8d8;
+}
+
+.contents .right .weather {
+    height: 140px;
+    margin-bottom: 10px;
+
+    background-color: #d8d8d8;
+}
+
+.contents .right .video_banner {
+    height: 140px;
+    padding: 60px;
+    margin-bottom: 10px;
+
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+
+    background-color: #d8d8d8;
+}
+
+.contents .right .shop {
+    height: 837px;
+    margin-bottom: 10px;
+
+    background-color: #d8d8d8;
+}
+
+.contents .right .sub_banner {
+    height: 130px;
+    padding: 55px;
+    margin-bottom: 10px;
+
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+
+    background-color: #d8d8d8;
+}
+
+/************ body ************/
+
+/************ footer ************/
+
+.footer {
+    width: 100%;
+    height: 580px;
+    background-color: #fff;
+    border-top: 1px solid #d1d8e4;
+}
+
+.footer .service_bar {
+    width: 1080px;
+    height: 45px;
+    padding: 15px 0;
+    margin: 0 auto;
+
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.footer .service_bar .notice {
+    width: 50%;
+    text-align: left;
+
+    float: left;
+}
+
+.footer .service_bar .more {
+    width: 50%;
+    text-align: right;
+
+    float: right;
+}
+
+.footer .line {
+    border-top: 1px solid #f1f3f6;
+    border-bottom: 1px solid #f1f3f6;
+}
+
+.footer .line .addition {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.footer .site_info {
+    width: 1080px;
+    padding-top: 25px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+.footer .site_info > ul li {
+    padding-left: 5px;
+    padding-right: 5px;
+
+    font-size: 12px;
+    display: inline;
+}
+
+
+/************ footer ************/
