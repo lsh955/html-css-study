@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f64c7a32-ec21-4591-9da6-e76f56ab3e77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190524_agit_ex01.html" beforeDir="false" afterPath="$PROJECT_DIR$/20190524_agit_ex01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190531_naver_ex01.html" beforeDir="false" afterPath="$PROJECT_DIR$/20190531_naver_ex01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/20190524_naver_ex01.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/20190531_naver_ex01.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/20190531_naver_ex01.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/20190531_naver_ex01.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,19 +19,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/20190524_agit_ex01.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="8738">
-                  <caret line="514" column="29" selection-start-line="514" selection-start-column="29" selection-end-line="514" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/20190531_naver_ex01.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="838">
+                <state relative-caret-position="570">
                   <caret line="427" column="34" selection-start-line="427" selection-start-column="34" selection-end-line="427" selection-end-column="34" />
                 </state>
               </provider>
@@ -43,20 +32,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/20190524_agit_ex01.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="12648">
-                  <caret line="744" column="18" selection-start-line="744" selection-start-column="18" selection-end-line="744" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/20190531_naver_ex01.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+                <state relative-caret-position="289">
+                  <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -114,8 +94,8 @@
         <option value="$PROJECT_DIR$/css/20190524_agit_ex01.css" />
         <option value="$PROJECT_DIR$/20190524_agit_ex01.html" />
         <option value="$PROJECT_DIR$/css/20190524_naver_ex01.css" />
-        <option value="$PROJECT_DIR$/css/20190531_naver_ex01.css" />
         <option value="$PROJECT_DIR$/20190531_naver_ex01.html" />
+        <option value="$PROJECT_DIR$/css/20190531_naver_ex01.css" />
       </list>
     </option>
   </component>
@@ -137,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -154,7 +135,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,14 +234,8 @@
       <workItem from="1559173182920" duration="2631000" />
       <workItem from="1559258157497" duration="1792000" />
       <workItem from="1559294438977" duration="134000" />
-      <workItem from="1559552721414" duration="103000" />
-    </task>
-    <task id="LOCAL-00004" summary="20190422_ex01 신규파일 추가">
-      <created>1555920201882</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1555920201882</updated>
+      <workItem from="1559552721414" duration="163000" />
+      <workItem from="1559553133753" duration="602000" />
     </task>
     <task id="LOCAL-00005" summary="파일명 변경">
       <created>1555920305388</created>
@@ -599,11 +573,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559207316340</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="20190603_최초커밋">
+      <created>1559552842438</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1559552842438</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85737000" />
+    <option name="totallyTimeSpent" value="86399000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,7 +599,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12739871" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12846482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -634,7 +615,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989059" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49413645" weight="0.17462039" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.29142857" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.29067245" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4978678" weight="0.19956616" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.329718" />
@@ -653,7 +634,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ex03 추가" />
     <MESSAGE value="CSS 수정" />
     <MESSAGE value="CSS 주석수정" />
     <MESSAGE value="CSS_배너버튼_추가" />
@@ -678,7 +658,8 @@
     <MESSAGE value="20190528_margin값 수정및 추가" />
     <MESSAGE value="20190529_최초커밋" />
     <MESSAGE value="20190530_최초커밋" />
-    <option name="LAST_COMMIT_MESSAGE" value="20190530_최초커밋" />
+    <MESSAGE value="20190603_최초커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="20190603_최초커밋" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/20190422_ex01.css" />
@@ -811,17 +792,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/20190531_naver_ex01.css">
+    <entry file="file://$PROJECT_DIR$/20190531_naver_ex01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="427" column="34" selection-start-line="427" selection-start-column="34" selection-end-line="427" selection-end-column="34" />
+        <state relative-caret-position="289">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20190531_naver_ex01.html">
+    <entry file="file://$PROJECT_DIR$/css/20190531_naver_ex01.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        <state relative-caret-position="570">
+          <caret line="427" column="34" selection-start-line="427" selection-start-column="34" selection-end-line="427" selection-end-column="34" />
         </state>
       </provider>
     </entry>

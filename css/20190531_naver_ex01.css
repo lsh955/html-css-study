@@ -201,11 +201,11 @@ input::placeholder {
 }
 
 .header .dobar .more > p {
-    padding-left: 20px;
+    padding-left: 13px;
 
     position: absolute;
     top: 13px;
-    left: 700px;
+    left: 690px;
 
     font-weight: 800;
     border-left: 1px solid #ebeef3;
@@ -217,7 +217,7 @@ input::placeholder {
 
     position: absolute;
     top: 13px;
-    left: 770px;
+    left: 760px;
 }
 
 .header .dobar .ranking {
@@ -255,7 +255,7 @@ input::placeholder {
 
 .contents {
     width: 1100px;
-    height: 1500px;
+    height: 1427px;
     margin: 0 auto;
 }
 
