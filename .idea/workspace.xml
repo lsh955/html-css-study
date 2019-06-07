@@ -23,8 +23,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/20190531_naver_ex01.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="570">
-                  <caret line="769" column="34" selection-start-line="769" selection-start-column="34" selection-end-line="769" selection-end-column="34" />
+                <state relative-caret-position="230">
+                  <caret line="1376" column="20" lean-forward="true" selection-start-line="1376" selection-start-column="20" selection-end-line="1376" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -36,8 +36,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/20190531_naver_ex01.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+                <state relative-caret-position="255">
+                  <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -106,9 +106,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-23" />
-    <option name="y" value="94" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2341" />
+    <option name="y" value="-10" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -237,14 +237,8 @@
       <workItem from="1559294438977" duration="134000" />
       <workItem from="1559552721414" duration="163000" />
       <workItem from="1559553133753" duration="602000" />
-      <workItem from="1559603653800" duration="630000" />
-    </task>
-    <task id="LOCAL-00005" summary="파일명 변경">
-      <created>1555920305388</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1555920305388</updated>
+      <workItem from="1559603653800" duration="698000" />
+      <workItem from="1559898649659" duration="139000" />
     </task>
     <task id="LOCAL-00006" summary="index 파일추가">
       <created>1555920443071</created>
@@ -582,11 +576,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559552842438</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="20190604_최초커밋">
+      <created>1559639807444</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1559639807444</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87029000" />
+    <option name="totallyTimeSpent" value="87236000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -598,10 +599,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-23" y="94" width="1936" height="1056" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12953092" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13059701" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -636,7 +637,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CSS 수정" />
     <MESSAGE value="CSS 주석수정" />
     <MESSAGE value="CSS_배너버튼_추가" />
     <MESSAGE value="CSS_수정" />
@@ -661,7 +661,8 @@
     <MESSAGE value="20190529_최초커밋" />
     <MESSAGE value="20190530_최초커밋" />
     <MESSAGE value="20190603_최초커밋" />
-    <option name="LAST_COMMIT_MESSAGE" value="20190603_최초커밋" />
+    <MESSAGE value="20190604_최초커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="20190604_최초커밋" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/20190422_ex01.css" />
@@ -794,17 +795,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/20190531_naver_ex01.css">
+    <entry file="file://$PROJECT_DIR$/20190531_naver_ex01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="769" column="34" selection-start-line="769" selection-start-column="34" selection-end-line="769" selection-end-column="34" />
+        <state relative-caret-position="255">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20190531_naver_ex01.html">
+    <entry file="file://$PROJECT_DIR$/css/20190531_naver_ex01.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="230">
+          <caret line="1376" column="20" lean-forward="true" selection-start-line="1376" selection-start-column="20" selection-end-line="1376" selection-end-column="20" />
         </state>
       </provider>
     </entry>
